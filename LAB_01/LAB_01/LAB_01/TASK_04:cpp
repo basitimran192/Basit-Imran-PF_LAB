@@ -1,0 +1,24 @@
+/*
+*lab	:01-T4
+*name 	:basit imran
+*roll no	:SE-34
+*date	:23-11-2026
+*purpose :correct the error using AI help and then check it 
+*
+*Error :'end' was not declared in this scop
+*AI tool :ChatGPT
+*AI said:end is the not code in C++, you shoud use endl
+*	which stands for end line. Also; was missing 
+*	on the above line.
+*Fix	:Replace end endl and put the missing;
+*verdict:	AI suggestion was right, because after fixing 
+*	the code ran find and give the correct output.
+*/
+#include<iostream>
+using namespace std;
+int main(){
+	cout<<"Lab 01 complete!"<<endl;
+	cout<<"next lab: variables and input"<<endl;
+	return 0;
+}
+
