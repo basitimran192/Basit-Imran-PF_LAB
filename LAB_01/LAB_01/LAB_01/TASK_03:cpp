@@ -1,0 +1,18 @@
+/*
+*Lab	:01-T3
+*Name 	:Basit Imran
+*Roll no	:SE-34
+*Date	:23-11-2026
+*Purpose :5 bugs in giving code*/
+
+#include<iostream>
+using namespace std;//BUG 1: using semicolon was missing after std
+int main()
+{
+	cout<<"welcome to the lab!"<<endl;//BUG 2: semicolon was not added at the end 
+	cout<<"today we learn\c++.\""<<endl;//BUG 3: capital C was used instead of small of cout
+	cout<<"files are in C:\\Lab01"<<endl;//BUG 4: one backslash changed of two for the path 
+	cout<<"Bye!"<<endl;//BUG 5:closing inverted commas was missing before<<
+	return 0;
+}
+
